@@ -1,0 +1,127 @@
+body {
+	background: linear-gradient(90deg, rgb(255, 0, 0) 0%, rgb(255, 238, 0) 35%, rgb(255, 0, 0) 100%);
+}
+.kodik {
+	background: blue;
+	padding: 1% 2% 3% 1%;
+	width: 20%;
+	height: 10%;
+	color: white;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	border-radius: 40px;
+	margin: auto;
+	word-wrap: break-word;
+	font-size: 1.2vw;
+	margin-top: 4%;
+}
+.kodik1 p {
+	padding: 1% 2% 3% 1%;
+	color: green;
+	text-align: center;
+	font-family: 'DynaPuff', cursive;
+	font-size: 5vw;
+}
+ul {
+	text-align: center;
+	font-size: 1.8vw;
+	
+}
+
+li {
+	display: inline-flex;
+	margin-right: 10px;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+	.kodik {color: black;
+			margin-top:2%;}
+	ul {
+		font-family: 'DynaPuff', cursive;
+		font-family: 'Rubik Dirt', cursive;}
+}
+.block {
+  width: 30%;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+.block  p {
+  display: inline-block;
+  background-position: center top;
+  border-radius: 10px;
+  font-size: 1.2vw;
+  margin-top: 2%;
+  align-items: stretch;
+}
+.zag {
+	text-align: center;
+	font-size: 2vw;}
+.op {
+  display: flex;
+}
+.sc {
+  display: inline-block;
+  width: 35%;
+  margin: 0 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #E7D4FF; /* Цвет фона */
+  color: #683AA6; /* Цвет текста */
+  text-align: center
+}
+.hb {
+  display: inline-block;
+  width: 35%;
+  margin: 0 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #DCDCFF; /* Цвет фона */
+  color: #3E3EA6; /* Цвет текста */	
+  text-align: center;
+}
+.ft {
+  display: inline-block;
+  width: 35%;
+  margin: 0 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #D8EEFF; /* Цвет фона */
+  color: #3C78A6; /* Цвет текста */	
+  text-align: center;
+}  
+.ch {
+  display: inline-block;
+  width: 35%;
+  margin: 0 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #D8EEFF; /* Цвет фона */
+  color: #3C78A6; /* Цвет текста */	
+  text-align: center;
+}  
+.tz {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #3C78A6; /* Цвет текста */	
+  text-align: center;
+}
+.wrap{
+  display: flex;
+  justify-content: center;
+
+}
+.menu{
+  display: flex;
+  position: fixed;
+  z-index: 10px;
+  top: 0;
+  height: 150px;
+  margin: 20px;
+}
+.menu-p {
+  margin: 10px 5px;
+  width: 120px;
+  background-color: #683AA6;
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 20px;
+}

@@ -1,0 +1,28 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background: rgb(rgb(131, 6, 6), rgb(220, 182, 13), rgb(40, 201, 0));
+    color: rgba(rgba(0, 0, 0, 0.555), rgb(7, 87, 7), blue, alpha);
+    font-size: 2vw;
+}
+p {
+    margin-top: 0;
+    font-size: 3vw;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input {
+    font-size: 1.5vw;
+    width: 30%;
+}
+.input {
+    height: 6vh;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(rgb(66, 1, 68), green, blue);
+    color: rgb(255, 0, 0);
+
+}
